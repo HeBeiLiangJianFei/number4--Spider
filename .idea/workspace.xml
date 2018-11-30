@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="92700a71-007b-4498-82b5-da12b27e3816" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/___Spider$___.coverage" NAME="多线程爬虫---百思不得琪姐 Coverage Results" MODIFIED="1540879466920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider---06" />
+    <SUITE FILE_PATH="coverage/___Spider$_____1_.coverage" NAME="多线程爬虫---百思不得琪姐 (1) Coverage Results" MODIFIED="1540948150610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider---06/Spider---多线程爬取" />
+    <SUITE FILE_PATH="coverage/___Spider$urlliburlretrieve____1_.coverage" NAME="使用urllib中的urlretrieve()函数获取多媒体文件 (1) Coverage Results" MODIFIED="1540364291388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider---01/urllib中urlretrieve()函数的使用" />
+    <SUITE FILE_PATH="coverage/___Spider$10_post.coverage" NAME="10_有道翻译post Coverage Results" MODIFIED="1540516410127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider---02/day02" />
+    <SUITE FILE_PATH="coverage/___Spider$11_.coverage" NAME="11_斗鱼直播抓取案例 Coverage Results" MODIFIED="1540862868982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider---05/day05" />
+    <SUITE FILE_PATH="coverage/___Spider$main.coverage" NAME="main Coverage Results" MODIFIED="1542425868575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58项目" />
+    <SUITE FILE_PATH="coverage/___Spider$channel_extract.coverage" NAME="channel_extract Coverage Results" MODIFIED="1542420199983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58项目" />
+    <SUITE FILE_PATH="coverage/___Spider$CSV_text.coverage" NAME="CSV_text Coverage Results" MODIFIED="1540352287798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider---01" />
+    <SUITE FILE_PATH="coverage/___Spider$pymysqlmiss.coverage" NAME="pymysqlmiss Coverage Results" MODIFIED="1540523708157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider---03" />
+    <SUITE FILE_PATH="coverage/___Spider$03_BeautifulSoup2.coverage" NAME="03_BeautifulSoup示例2 Coverage Results" MODIFIED="1540946778486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider---06/day06" />
+    <SUITE FILE_PATH="coverage/___Spider$run.coverage" NAME="run Coverage Results" MODIFIED="1542351566425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/MyProxyPool" />
+    <SUITE FILE_PATH="coverage/___Spider$quna_text.coverage" NAME="quna_text Coverage Results" MODIFIED="1540437158215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider---02/Spider--selenium" />
+    <SUITE FILE_PATH="coverage/___Spider$mianshiti.coverage" NAME="mianshiti Coverage Results" MODIFIED="1542364832567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/___Spider$processing__text.coverage" NAME="processing--text Coverage Results" MODIFIED="1540949896499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider---07/进程" />
+    <SUITE FILE_PATH="coverage/___Spider$pymongomiss.coverage" NAME="pymongomiss Coverage Results" MODIFIED="1540537787475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider---03" />
+    <SUITE FILE_PATH="coverage/___Spider$Tmooc_login.coverage" NAME="Tmooc_login Coverage Results" MODIFIED="1540431963158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider---02/Spider--selenium" />
+    <SUITE FILE_PATH="coverage/___Spider$__1_.coverage" NAME="解释器的使用 (1) Coverage Results" MODIFIED="1540882241575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider---06/Spider之BeautifulSoup的使用" />
+    <SUITE FILE_PATH="coverage/___Spider$ceshi.coverage" NAME="ceshi Coverage Results" MODIFIED="1542424805150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58项目" />
+    <SUITE FILE_PATH="coverage/___Spider$text.coverage" NAME="text Coverage Results" MODIFIED="1540881324994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider---06/Spider---多线程爬取" />
+    <SUITE FILE_PATH="coverage/___Spider$pool.coverage" NAME="pool Coverage Results" MODIFIED="1540948841694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Python笔记第二阶段/网络编程06/myday06" />
+    <SUITE FILE_PATH="coverage/___Spider$pool_map.coverage" NAME="pool_map Coverage Results" MODIFIED="1540951016230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Python笔记第二阶段/网络编程06/myday06" />
+    <SUITE FILE_PATH="coverage/___Spider$cufnag.coverage" NAME="cufnag Coverage Results" MODIFIED="1540514087012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/___Spider$page_parsing.coverage" NAME="page_parsing Coverage Results" MODIFIED="1542418019029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58项目" />
+    <SUITE FILE_PATH="coverage/___Spider$.coverage" NAME="二分查找 Coverage Results" MODIFIED="1542448277755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../数据分析" />
+    <SUITE FILE_PATH="coverage/___Spider$pyecharts_text.coverage" NAME="pyecharts_text Coverage Results" MODIFIED="1541205962968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapy框架的使用/瞎搞" />
+    <SUITE FILE_PATH="coverage/___Spider$Random_UA.coverage" NAME="Random_UA Coverage Results" MODIFIED="1542420477704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58项目" />
+    <SUITE FILE_PATH="coverage/___Spider$fangdong.coverage" NAME="fangdong Coverage Results" MODIFIED="1540538246618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider---03" />
+    <SUITE FILE_PATH="coverage/___Spider$Spider_.coverage" NAME="Spider_盗墓笔记 Coverage Results" MODIFIED="1540352676740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider---01/python_csv模块" />
+    <SUITE FILE_PATH="coverage/___Spider$getIp.coverage" NAME="getIp Coverage Results" MODIFIED="1542370972442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/___Spider$ceshi__1_.coverage" NAME="ceshi (1) Coverage Results" MODIFIED="1542436256942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/赶集项目" />
+    <SUITE FILE_PATH="coverage/___Spider$03_.coverage" NAME="03_糗事百科案例 Coverage Results" MODIFIED="1540774661047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider---04/day04" />
+    <SUITE FILE_PATH="coverage/___Spider$urlliburlretrieve__.coverage" NAME="使用urllib中的urlretrieve()函数获取多媒体文件 Coverage Results" MODIFIED="1540364105446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider---01/python_csv模块" />
+    <SUITE FILE_PATH="coverage/___Spider$web.coverage" NAME="web验证 Coverage Results" MODIFIED="1540542086723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider---03" />
+    <SUITE FILE_PATH="coverage/___Spider$baidu.coverage" NAME="baidu Coverage Results" MODIFIED="1540430424422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider---02/Spider--selenium" />
+    <SUITE FILE_PATH="coverage/___Spider$SSL.coverage" NAME="SSL证书验证 Coverage Results" MODIFIED="1540543213775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider---03" />
+    <SUITE FILE_PATH="coverage/___Spider$qiushibaikeSpider.coverage" NAME="qiushibaikeSpider Coverage Results" MODIFIED="1540547553699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider---03" />
+    <SUITE FILE_PATH="coverage/___Spider$middlewares.coverage" NAME="middlewares Coverage Results" MODIFIED="1542799024747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Feijiu/Feijiu" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-80323760">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="18" />
+          <entry key="project.open.time.0" value="5" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="01-text" value="1" />
+          <entry key="cfg" value="1" />
+          <entry key="csv" value="38" />
+          <entry key="html" value="3" />
+          <entry key="iml" value="1" />
+          <entry key="jpg" value="18" />
+          <entry key="js" value="3" />
+          <entry key="json" value="6" />
+          <entry key="log" value="1" />
+          <entry key="png" value="11" />
+          <entry key="py" value="281" />
+          <entry key="pyi" value="4" />
+          <entry key="pyqt安装、" value="1" />
+          <entry key="txt" value="9" />
+          <entry key="xml" value="3" />
+          <entry key="笔记" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="3" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="Image" value="29" />
+          <entry key="Ini" value="1" />
+          <entry key="JSON" value="6" />
+          <entry key="JavaScript" value="3" />
+          <entry key="PLAIN_TEXT" value="54" />
+          <entry key="Python" value="281" />
+          <entry key="PythonStub" value="4" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="01-text" value="242" />
+          <entry key="dummy" value="44" />
+          <entry key="html" value="31" />
+          <entry key="js" value="635" />
+          <entry key="py" value="26423" />
+          <entry key="笔记" value="647" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="31" />
+          <entry key="JavaScript" value="635" />
+          <entry key="PLAIN_TEXT" value="933" />
+          <entry key="Python" value="26423" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>max</find>
+      <find>衣衣质量很好，穿着特别舒服，喜欢，推荐一下，，高端大气上档次，低调奢华有内涵。。</find>
+      <find>comments</find>
+      <find>试穿一下，特别的舒适，</find>
+      <find>CSV</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Spider---03/SSL证书验证.py" />
+        <option value="$PROJECT_DIR$/Spider---03/qiushibaikeSpider.py" />
+        <option value="$PROJECT_DIR$/Spider---05/day05/12_京东商品爬取.py" />
+        <option value="$PROJECT_DIR$/Spider---06/cloude.html" />
+        <option value="$PROJECT_DIR$/Spider---05/day05/11_斗鱼直播抓取案例.py" />
+        <option value="$PROJECT_DIR$/Spider---06/京东商品爬取.py" />
+        <option value="$PROJECT_DIR$/Spider---06/qiushibaikeSpider.py" />
+        <option value="$PROJECT_DIR$/Spider---06/多线程爬虫.py" />
+        <option value="$PROJECT_DIR$/Spider---06/多线程爬虫---百思不得琪姐.py" />
+        <option value="$PROJECT_DIR$/Spider---06/Spider---多线程爬取/text.py" />
+        <option value="$PROJECT_DIR$/Spider---06/Spider之BeautifulSoup的使用/index.html" />
+        <option value="$PROJECT_DIR$/Spider---06/Spider之BeautifulSoup的使用/解释器的使用.py" />
+        <option value="$PROJECT_DIR$/Spider---06/Spider之BeautifulSoup的使用/糗事百科实例.py" />
+        <option value="$PROJECT_DIR$/Spider---06/Spider---多线程爬取/__init__.py" />
+        <option value="$PROJECT_DIR$/Spider---06/day06/02_BeautifulSoup示例.py" />
+        <option value="$PROJECT_DIR$/Spider---06/day06/03_BeautifulSoup示例2.py" />
+        <option value="$PROJECT_DIR$/../Python笔记第二阶段/网络编程06/myday06/pool.py" />
+        <option value="$PROJECT_DIR$/Spider---07/进程/processing--text.py" />
+        <option value="$PROJECT_DIR$/Spider---07/生成器函数/斐波那契数列.py" />
+        <option value="$PROJECT_DIR$/Scrapy框架的使用/Renren/Renren/spiders/renren.py" />
+        <option value="$PROJECT_DIR$/Scrapy框架的使用/tencent/tencent/settings.py" />
+        <option value="$PROJECT_DIR$/Bra/Bra/spiders/brajd-02.py" />
+        <option value="$PROJECT_DIR$/Scrapy框架的使用/cnblogSpider/cnblogSpider/pipelines.py" />
+        <option value="$PROJECT_DIR$/Bra/Bra/pipelines.py" />
+        <option value="$PROJECT_DIR$/ceshi.py" />
+        <option value="$PROJECT_DIR$/Bra/Bra/spiders/brajd--01.py" />
+        <option value="E:/MyProxyPool/getter.py" />
+        <option value="E:/MyProxyPool/flaskAPI.py" />
+        <option value="$PROJECT_DIR$/Bra/Bra/items.py" />
+        <option value="$USER_HOME$/Downloads/scrapy-1.5.1/scrapy-1.5.1/scrapy/exporters.py" />
+        <option value="$PROJECT_DIR$/Bra/Bra/spiders/brajd.py" />
+        <option value="$PROJECT_DIR$/mianshiti.py" />
+        <option value="$PROJECT_DIR$/12306项目/main.py" />
+        <option value="$PROJECT_DIR$/12306项目/笔记" />
+        <option value="$PROJECT_DIR$/getIp.py" />
+        <option value="$PROJECT_DIR$/Bra/Bra/settings.py" />
+        <option value="$PROJECT_DIR$/58项目/Random_UA.py" />
+        <option value="$PROJECT_DIR$/58项目/笔记" />
+        <option value="$PROJECT_DIR$/58项目/main.py" />
+        <option value="$PROJECT_DIR$/58项目/ceshi.py" />
+        <option value="$PROJECT_DIR$/58项目/channel_extract.py" />
+        <option value="$PROJECT_DIR$/赶集项目/笔记" />
+        <option value="$PROJECT_DIR$/58项目/page_parsing.py" />
+        <option value="$PROJECT_DIR$/赶集项目/ceshi.py" />
+        <option value="$PROJECT_DIR$/赶集项目/数据清洗.py" />
+        <option value="$PROJECT_DIR$/../数据分析/二分查找.py" />
+        <option value="$PROJECT_DIR$/Bra/Bra/middlewares.py" />
+        <option value="$PROJECT_DIR$/Feijiu/Feijiu/items.py" />
+        <option value="$PROJECT_DIR$/Feijiu/Feijiu/settings.py" />
+        <option value="$PROJECT_DIR$/Feijiu/Feijiu/middlewares.py" />
+        <option value="$PROJECT_DIR$/Feijiu/Feijiu/spiders/feijiu.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="632" />
+    <option name="width" value="1247" />
+    <option name="height" value="1046" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="第四阶段---Spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="第四阶段---Spider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="第四阶段---Spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="第四阶段---Spider" type="462c0819:PsiDirectoryNode" />
+              <item name="12306项目" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="第四阶段---Spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="第四阶段---Spider" type="462c0819:PsiDirectoryNode" />
+              <item name="Feijiu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="第四阶段---Spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="第四阶段---Spider" type="462c0819:PsiDirectoryNode" />
+              <item name="Feijiu" type="462c0819:PsiDirectoryNode" />
+              <item name="Feijiu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="第四阶段---Spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="第四阶段---Spider" type="462c0819:PsiDirectoryNode" />
+              <item name="Spider---08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="第四阶段---Spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="第四阶段---Spider" type="462c0819:PsiDirectoryNode" />
+              <item name="Spider---08" type="462c0819:PsiDirectoryNode" />
+              <item name="day08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="第四阶段---Spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="第四阶段---Spider" type="462c0819:PsiDirectoryNode" />
+              <item name="Spider---08" type="462c0819:PsiDirectoryNode" />
+              <item name="day08" type="462c0819:PsiDirectoryNode" />
+              <item name="Tengxun" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="第四阶段---Spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="第四阶段---Spider" type="462c0819:PsiDirectoryNode" />
+              <item name="Spider---08" type="462c0819:PsiDirectoryNode" />
+              <item name="day08" type="462c0819:PsiDirectoryNode" />
+              <item name="Tengxun" type="462c0819:PsiDirectoryNode" />
+              <item name="Tengxun" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="第四阶段---Spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="第四阶段---Spider" type="462c0819:PsiDirectoryNode" />
+              <item name="Spider---08" type="462c0819:PsiDirectoryNode" />
+              <item name="day08" type="462c0819:PsiDirectoryNode" />
+              <item name="Tengxun" type="462c0819:PsiDirectoryNode" />
+              <item name="Tengxun" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="db2" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python--Pandas" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tjajia\Desktop\第四阶段---Spider\Spider---06\Spider---多线程爬取" />
+      <recent name="C:\Users\tjajia\Desktop\第四阶段---Spider" />
+      <recent name="C:\Users\tjajia\Desktop\第四阶段---Spider\Spider---02" />
+      <recent name="C:\Users\tjajia\Desktop\第四阶段---Spider\Spider---01\urllib中urlretrieve()函数的使用" />
+      <recent name="C:\Users\tjajia\Desktop\第四阶段---Spider\Spider---01\python_csv模块" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tjajia\Desktop\第四阶段---Spider\Feijiu\Feijiu" />
+      <recent name="C:\Users\tjajia\Desktop\第四阶段---Spider\Bra\Bra\spiders" />
+      <recent name="C:\Users\tjajia\Desktop\第四阶段---Spider\Bra\Bra" />
+      <recent name="C:\Users\tjajia\Desktop\第四阶段---Spider\Spider---06" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.middlewares">
+    <configuration name="数据清洗" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="第四阶段---Spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/赶集项目" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/赶集项目/数据清洗.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="二分查找" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="第四阶段---Spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../数据分析" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../数据分析/二分查找.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="解释器的使用" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="第四阶段---Spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="E:/Spider之BeautifulSoup的使用" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:/Spider之BeautifulSoup的使用/解释器的使用.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ceshi (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="第四阶段---Spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/赶集项目" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/赶集项目/ceshi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ceshi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="第四阶段---Spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/58项目" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/58项目/ceshi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="第四阶段---Spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/58项目" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/58项目/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="middlewares" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="第四阶段---Spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Feijiu/Feijiu" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Feijiu/Feijiu/middlewares.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.ceshi" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.ceshi (1)" />
+      <item itemvalue="Python.数据清洗" />
+      <item itemvalue="Python.middlewares" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.middlewares" />
+        <item itemvalue="Python.数据清洗" />
+        <item itemvalue="Python.ceshi (1)" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.ceshi" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92700a71-007b-4498-82b5-da12b27e3816" name="Default Changelist" comment="" />
+      <created>1540342230360</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540342230360</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="632" y="0" width="1247" height="1046" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08593092" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2595838" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.29166666" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.39479393" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.26644737" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.5803238" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://E:/MyProxyPool/redisDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/MyProxyPool/flaskAPI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/MyProxyPool/test_getter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架的使用/tencent/tencent/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="121" column="8" lean-forward="true" selection-start-line="121" selection-start-column="8" selection-end-line="121" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/MyProxyPool/getter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="136" column="11" selection-start-line="136" selection-start-column="11" selection-end-line="136" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架的使用/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架的使用/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架的使用/.idea/Scrapy框架的使用.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/twisted/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/scrapy/item.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="100" column="6" selection-start-line="100" selection-start-column="6" selection-end-line="100" selection-end-column="6" />
+          <folding>
+            <element signature="e#64#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/scrapy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bra/Bra/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bra/Bra/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/scrapy-1.5.1/scrapy-1.5.1/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-779">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bra/Bra/bra.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3633">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/scrapy-1.5.1/scrapy-1.5.1/scrapy/exporters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12306项目/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bra/Bra/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12306项目/笔记">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/58项目/笔记">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python笔记第二阶段/MOGODB 01/day04/mongo.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python笔记第二阶段/MOGODB 01/day04/mongodb/mongo1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python笔记第二阶段/MOGODB 01/day04/mongodb/mongo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="34" column="2" lean-forward="true" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/58项目/Random_UA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../数据分析/二分查找.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/赶集项目/笔记">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/58项目/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1733429124/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="986" lean-forward="true" selection-start-line="986" selection-end-line="986" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="907">
+          <caret line="357" lean-forward="true" selection-start-line="357" selection-end-line="357" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/scrapy/http/request/form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="41" column="56" lean-forward="true" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
+          <folding>
+            <element signature="e#198#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/58项目/page_parsing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+          <folding>
+            <element signature="e#67#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/赶集项目/ceshi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <marker date="1542436256864" expanded="true" signature="88:95" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/赶集项目/数据清洗.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2478">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+          <folding>
+            <marker date="1542446634639" expanded="true" signature="1567:1700" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/58项目/ceshi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#144#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/58项目/channel_extract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+          <folding>
+            <element signature="e#68#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Feijiu/Feijiu/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <marker date="1542798566809" expanded="true" signature="199:204" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bra/Bra/user_agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider---08/day08/Tengxun/Tengxun/spiders/tengxun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="24" column="72" lean-forward="true" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Weibo-master/weibo/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-756" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bra/Bra/spiders/brajd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+            <marker date="1542364301226" expanded="true" signature="104:109" ph="..." />
+            <marker date="1542364301226" expanded="true" signature="401:406" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/scrapy/http/request/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Weibo-master/weibo/spiders/weibocn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="71" column="36" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Feijiu/feijiu.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Feijiu/Feijiu/spiders/feijiu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mianshiti.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getIp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceshi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-568">
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+          <folding>
+            <element signature="e#67#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Feijiu/Feijiu/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="829">
+          <caret line="77" column="28" lean-forward="true" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Feijiu/Feijiu/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="112" column="54" lean-forward="true" selection-start-line="112" selection-start-column="54" selection-end-line="112" selection-end-column="54" />
+          <folding>
+            <marker date="1542799024662" expanded="true" signature="3736:3772" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Feijiu/Feijiu/user_agents.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bra/Bra/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="115" column="56" selection-start-line="115" selection-start-column="56" selection-end-line="115" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

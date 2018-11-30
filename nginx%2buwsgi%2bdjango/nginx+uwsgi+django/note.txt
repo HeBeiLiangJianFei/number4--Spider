@@ -1,0 +1,105 @@
+1、概念
+  1、Django项目(Web应用)
+  2、Web服务
+    1、nginx   ：高并发处理的好
+    2、Apache  ：稳定
+      LAMP ：Linux  Apache  MySQL  Python/Php/Perl
+      LNMP ：Linux  Nginx   MySQL  Python/Php/Perl
+    3、uwsgi
+      是Web服务器与Web框架之间一种简单而通用的接口
+2、单项目部署(nginx+uwsgi+Django)
+  1、确保django项目能够运行
+  2、安装nginx(用apt-get去安装)
+    1、安装
+      sudo apt-get install nginx
+    2、启动
+      sudo /etc/init.d/nginx restart
+    3、验证
+      打开浏览器-->127.0.0.1:80-->Welcome to Nginx!
+  3、安装uwsgi(用pip3去安装)
+    1、安装
+      sudo pip3 install uwsgi
+    2、验证
+      uwsgi --http :9998 --chdir /home/tarena/myproject/friutday_1/ --module friutday.wsgi
+  4、部署
+    1、配置uwsgi(配置文件)
+      1、mkdir uwsgi
+      2、cd uwsgi
+      3、vi fruitday_uwsgi.ini
+	[uwsgi]
+	# 和nginx通信的端口
+	socket=127.0.0.1:8001
+	# 项目路径
+	chdir=/home/tarena/myproject/friutday_1
+	# wsgi.py路径
+	wsgi-file=friutday/wsgi.py
+	# 进程数
+	processes=4
+	# 线程数
+	thread=2
+	# 本项目占用uwsgi端口
+	stats=127.0.0.1:8081
+    2、配置nginx(配置文件)
+      1、sudo -i
+      2、cd /etc/nginx/sites-enabled
+      3、vi project_nginx.conf
+	server{
+	        # 监听本项目端口,浏览器输入的端口
+		listen 8201;
+		server_name frituday.com;
+		charset utf-8;
+		client_max_body_size 75M;
+		# 收集项目静态文件路径
+		location /static{
+			alias /home/tarena/myproject/friutday_1/static;
+		}
+	      # 和uwsgi通信端口和项目通信文件uwsgi_params
+		location /{
+			include uwsgi_params;
+			uwsgi_pass 127.0.0.1:8001;
+		}
+	}
+      4、重启nginx服务
+        sudo /etc/init.d/nginx restart
+      5、拷贝uwsgi_params文件到项目目录
+        cp uwsgi_params /home/tarena/myproject/friutday_1/
+    3、收集静态文件
+      1、在settings.py文件中添加路径(STATIC_ROOT)
+        STATIC_ROOT = '/home/tarena/myproject/friutday_1/static/'
+      2、收集静态文件
+        python3 manage.py collectstatic
+    4、uwsgi启动项目
+      cd /home/tarena/uwsgi
+      uwsgi --ini fruitday_uwsgi.ini
+3、多项目部署
+  1、uwsgi
+    每个项目需要单独创建uwsgi配置文件,选用不同端口
+  2、nginx
+    配置文件,1个就可以,添加server{}
+  3、部署个人博客项目
+    1、浏览器访问端口 ：8202
+      /etc/nginx/sites-enabled/project_nginx.conf
+      # listen 8202
+    2、uwsgi和nginx通信端口 ：8002
+      cd uwsgi
+      vi blog_uwsgi.ini
+      # socket=127.0.0.1:8002
+    3、uwsgi启动个人博客项目占用端口 ：8082
+      vi blog_uwsgi.ini
+      stats=127.0.0.1:8082
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

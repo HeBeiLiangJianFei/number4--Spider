@@ -1,0 +1,19 @@
+[INFO  - 2018-11-01T06:52:46.021Z] GhostDriver - Main - running on port 35028
+[INFO  - 2018-11-01T06:52:46.949Z] Session [bd8e4c20-dda2-11e8-9ca2-fd8ceee54753] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-01T06:52:46.949Z] Session [bd8e4c20-dda2-11e8-9ca2-fd8ceee54753] - page.customHeaders:  - {}
+[INFO  - 2018-11-01T06:52:46.949Z] Session [bd8e4c20-dda2-11e8-9ca2-fd8ceee54753] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-01T06:52:46.949Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: bd8e4c20-dda2-11e8-9ca2-fd8ceee54753
+[ERROR - 2018-11-01T06:52:57.398Z] Session [bd8e4c20-dda2-11e8-9ca2-fd8ceee54753] - page.onError - msg: TypeError: null is not an object (evaluating 's.init')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-01T06:52:57.399Z] Session [bd8e4c20-dda2-11e8-9ca2-fd8ceee54753] - page.onError - stack:
+  (anonymous function) (https://search.jd.com/Search?keyword=%E7%88%AC%E8%99%AB&enc=utf-8&pvid=afe8b96d067345fa8b7e16e37b028572:2598)
+  callback (https://misc.360buyimg.com/??jdf/1.0.0/unit/base/5.0.0/base.js,jdf/lib/jquery-1.6.4.js,product/module/es5-shim.js:2)
+  onload (https://misc.360buyimg.com/??jdf/1.0.0/unit/base/5.0.0/base.js,jdf/lib/jquery-1.6.4.js,product/module/es5-shim.js:2)
+  onload (https://misc.360buyimg.com/??jdf/1.0.0/unit/base/5.0.0/base.js,jdf/lib/jquery-1.6.4.js,product/module/es5-shim.js:2)
+  load (https://misc.360buyimg.com/??jdf/1.0.0/unit/base/5.0.0/base.js,jdf/lib/jquery-1.6.4.js,product/module/es5-shim.js:2)
+  d (https://misc.360buyimg.com/??jdf/1.0.0/unit/base/5.0.0/base.js,jdf/lib/jquery-1.6.4.js,product/module/es5-shim.js:2)
+  f (https://misc.360buyimg.com/??jdf/1.0.0/unit/base/5.0.0/base.js,jdf/lib/jquery-1.6.4.js,product/module/es5-shim.js:2)
+  onerror (https://misc.360buyimg.com/??jdf/1.0.0/unit/base/5.0.0/base.js,jdf/lib/jquery-1.6.4.js,product/module/es5-shim.js:2)
+
+  phantomjs://platform/console++.js:263 in error

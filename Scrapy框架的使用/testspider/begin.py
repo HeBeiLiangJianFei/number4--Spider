@@ -1,0 +1,8 @@
+# !/usr/bin/env/python
+# _*_coding:utf-8 _*_
+# author:LiangJianfei
+
+from scrapy.cmdline import execute
+execute("scrapy crawl myspider".split())
+
+

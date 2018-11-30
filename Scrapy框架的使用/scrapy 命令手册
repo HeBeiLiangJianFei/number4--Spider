@@ -1,0 +1,160 @@
+
+cd 到指定目录下：
+    创建一个scrapy项目：
+        scrapy startproject <project name>
+        例如：scrapy startproject myproject
+
+ 使用命令行创建一个Spider 比如生成Quotes这个Spider，可以执行如下命令：
+    cd tutorial
+    scrapy genspider quotes quotes.toscrape.com
+    进去刚才创建的tutorial文件夹，然后执行genspider 命令，
+    第一个参数时Spider的名称，第二个参数是网站域名，。执行完毕后，spider文件夹中多
+    了一个quotes.py
+
+内容如下：
+# -*- coding: utf-8 -*-
+import scrapy
+
+
+class QuotesSpider(scrapy.Spider):
+    name = 'quotes'
+    allowed_domains = ['quotes.toscrape.com']
+    start_urls = ['http://quotes.toscrape.com/']
+
+    def parse(self, response):
+        pass
+
+
+    开启爬虫：
+        scrapy crawl <爬虫名称>
+        scrapy crawl quotes
+
+    启动  scrapy shell "url"
+     退出 quit
+
+
+    scrapy fetch --nolog “url” 使用Spider下载器（Downloader）下载给定的url。并将
+    获取到的内容送到标准输出；
+
+    scrapy fetch --nolog --headers "url"  返回请求头
+
+
+    view 命令 ：
+        scrapy view “url” 在浏览器中打开给定的url，并以Spider spider 获取到的形式展现，和之前
+        将的view（response）效果一样一样，  ----将HTML保存到本地
+
+        scrapy view "url"
+
+    scrapy list 列出当前项目中所有可用的spider
+
+    scrapy 返回的必须是字典 不能是列表
+
+
+
+
+使用pycharm 运行 scrapy项目
+
+
+
+spider 示例1：
+    www.csdn.net
+    抓取标题、发表时间、阅读数
+
+    设置全局settings.py
+
+
+spider 示例2：
+    项目名称：Daomu
+    url = http://www.daomubiji.com/dao-mu-bi-ji-1
+    章节名称：/html/body/section/div[2]/div/article/a/text()
+    标题：/html/body/div[1]/div/h1
+    章节连接：/html/body/section/div[2]/div/article/a/@href
+
+spider 示例3：
+    项目：腾讯招聘网站案例
+    url的变化：
+        1、https://hr.tencent.com/position.php?&start=0#a
+        2、https://hr.tencent.com/position.php?&start=10#a
+    获取信息：
+        xpath匹配：
+            //tr[@class="even"]|//tr[@class="old"]
+
+
+
+职位名称：//div[@class="p_top"]/a/h3/text()
+工作地点：//div[@class="p_top"]/a/span/em/text()
+公司名称：//div[@class="company_name"]/a/text()
+工资：//div[@class="p_bot"]/div/span/text()
+工作年限：//div[@class="p_bot"]/div  xpath中错误中含有工资
+公司规模：//div[@class="industry"]/text()
+公司待遇：//div[@class="list_item_bot"]/div[2]
+
+
+设置手机抓包：
+
+如何设置随机User-Agent：
+    使用与少量的User-Agent切换：
+        定义User-Agent 变量值
+        DEFAULT_REQUEST_HEADERS
+
+    大量User-Agent大量切换时：
+        在项目目录中新建py文件，用于存放大量的User-Agent文件，
+        在middlewares.py中，编写一个随机获取User-Agent的类，类名是RandomUserAgentMiddleware
+        设置setting.py 中，DOWNLOADER_MIDDLEWARES，添加随机User-类，并设置优先级
+
+如何设置IP代理：
+    在middlewares.py中,添加代理中间件：ProxyMiddleware类名
+    在settings中添加优先级
+
+
+下载图片：
+    图片管道：ImagePipeline
+    案例：
+        斗鱼图片案例APP
+        http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=20&offset=80
+    抓取目标
+        "vertical_src"
+        "room_id"
+        "nickname"
+        "anchor_city"
+        把所有图片保存在 文件夹下
+    步骤：
+        1、前提：手机与电脑为一个区域网
+        2、设置Fiddler抓包工具：
+        3、查看本机Ip :终端命令输入：ipconfig
+        4、配置手机：
+            进入：http://电脑地址：8888
+            下载fiddlerRoot certificate 证书
+        5、设置手机代理：
+            设置连接WiFi---》代理
+                主机地址
+                IP地址：
+                端口号：8888
+
+
+使用scrapy + selenium + phantomJs  京东实例
+
+Scrapy 模拟登录 人人网
+
+pip install tesseract
+
+
+from PIL import Image
+import pytesseract
+
+image = Image.open("验证码.jpg")
+s = pytesseract.image_to_string(image)
+print(s)
+
+
+分布式爬虫：
+    url去重问题。
+    scrapy-redis
+    分类：
+        主从分布式  主服务器进行巡视从服务器
+        对等分布式
+           scrapy-redis 去重 加密
+
+
+
+

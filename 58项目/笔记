@@ -1,0 +1,27 @@
+
+Thread | Process
+    进程占用一个CPU
+    单线程单进程
+    单进程多线程
+    多进程单线程
+    多进程多线程
+
+
+
+第一步：
+    获取分类中的所有URL
+第二步：
+    获取某分类中item的url,并存入MongoDB数据库中
+第三步：
+    在mongodb中获取url，解析获取每个item的 title、price、date、area,并存入MongoDB数据库
+
+
+
+
+
+
+
+
+
+
+
